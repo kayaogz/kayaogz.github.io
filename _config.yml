@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Oguz Kaya
   avatar: bio-photo.jpg
-  bio: "I am an assistant professor (maître de conférences) in the ParSys team of Laboratoire de Recherche en Informatique (LRI) at Université Paris-Sud. My research addresses combinatorial and computational problems arising in (multi)linear algebra, machine learning, and scientific computing."
+  bio: "I am an assistant professor (maître de conférences) in the ParSys team of Laboratoire de Recherche en Informatique (LRI) at Université Paris-Sud/Paris-Saclay. My research addresses combinatorial and computational problems arising in (multi)linear algebra, machine learning, and scientific computing."
   email: oguz.kaya@inria.fr
   disqus-shortname:
   twitter: #username
