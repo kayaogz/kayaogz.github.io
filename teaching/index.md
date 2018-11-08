@@ -16,4 +16,4 @@ image:
 
 #### TP
 
-##### TP1 - Introduction au MPI: <a href="app4-programmation-parallele-2018/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
+##### TP1 - Introduction au MPI: <a href="app4-programmation-parallele-2018/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1.tar" class="textlink" target="_blank">tp1.tar</a>
