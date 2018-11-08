@@ -11,3 +11,5 @@ image:
 ---
 
 ### APP4 Programmation Parallèle
+
+##### Slides: <a href="app4-programmation-parallele-2018/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
