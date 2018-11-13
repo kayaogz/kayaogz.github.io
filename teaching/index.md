@@ -17,3 +17,5 @@ image:
 #### TP
 
 ##### TP1 - Introduction au MPI: <a href="app4-programmation-parallele-2018/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>  <a href="app4-programmation-parallele-2018/tp/tp1/tp1-fr.pdf" class="textlink" target="_blank">tp1-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1.tar" class="textlink" target="_blank">tp1.tar</a>
+
+##### TP1 - Broadcast sur les Anneaux: <a href="app4-programmation-parallele-2018/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>  <a href="app4-programmation-parallele-2018/tp/tp2/tp2-fr.pdf" class="textlink" target="_blank">tp2-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp2/tp2.tar" class="textlink" target="_blank">tp2.tar</a>
