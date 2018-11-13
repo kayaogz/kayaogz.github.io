@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
 
   // Process rank 0 should be  the source of the broadcast
 
-#include "bcast_solution_ref.c"
+#include "bcast_solution.c"
 
   /////////////////////////////////////////////////////////////////////////////
   ///////////////////////////// TO IMPLEMENT: END /////////////////////////////
