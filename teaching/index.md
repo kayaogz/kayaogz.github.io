@@ -22,3 +22,5 @@ image:
 ##### TP2 - Broadcast sur les Anneaux: <a href="app4-programmation-parallele-2018/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>  <a href="app4-programmation-parallele-2018/tp/tp2/tp2-fr.pdf" class="textlink" target="_blank">tp2-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp2/tp2.tar" class="textlink" target="_blank">tp2.tar</a> <a href="app4-programmation-parallele-2018/tp/tp2/bcast_solution_ref.c" class="textlink" target="_blank">bcast_solution_ref.c</a>
 
 ##### TP3 - Multiplication des matrices: <a href="app4-programmation-parallele-2018/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp3/tp3.tar" class="textlink" target="_blank">tp3.tar</a> <a href="app4-programmation-parallele-2018/tp/tp3/summa-solution-reference.c" class="textlink" target="_blank">summa-solution-reference.c</a>
+
+##### TP4 - Introduction à OpenMP : <a href="app4-programmation-parallele-2018/tp/tp4/tp4.pdf" class="textlink" target="_blank">tp4.pdf</a>
