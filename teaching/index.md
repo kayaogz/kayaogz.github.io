@@ -25,3 +25,5 @@ image:
 ##### TP3 - Multiplication des matrices: <a href="app4-programmation-parallele-2018/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp3/tp3.tar" class="textlink" target="_blank">tp3.tar</a> <a href="app4-programmation-parallele-2018/tp/tp3/summa-solution-reference.c" class="textlink" target="_blank">summa-solution-reference.c</a>
 
 ##### TP4 - Introduction à OpenMP : <a href="app4-programmation-parallele-2018/tp/tp4/tp4.pdf" class="textlink" target="_blank">tp4.pdf</a>
+
+##### TP5 - OpenMP Tasks: <a href="app4-programmation-parallele-2018/tp/tp5/tp5.pdf" class="textlink" target="_blank">tp5.pdf</a>
