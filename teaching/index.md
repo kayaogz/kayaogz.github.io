@@ -12,7 +12,7 @@ image:
 
 ### APP4 Programmation Parallèle
 
-#### Slides: <a href="app4-programmation-parallele-2018/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI1.pdf" class="textlink" target="_blank">MPI1.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI2.pdf" class="textlink" target="_blank">MPI2.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI3.pdf" class="textlink" target="_blank">MPI3.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI4.pdf" class="textlink" target="_blank">MPI4.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI-overview.pdf" class="textlink" target="_blank">MPI-overview.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI-cheatsheet.pdf" class="textlink" target="_blank">MPI-cheatsheet.pdf</a> <a href="app4-programmation-parallele-2018/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+#### Slides: <a href="app4-programmation-parallele-2018/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI1.pdf" class="textlink" target="_blank">MPI1.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI2.pdf" class="textlink" target="_blank">MPI2.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI3.pdf" class="textlink" target="_blank">MPI3.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI4.pdf" class="textlink" target="_blank">MPI4.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI-overview.pdf" class="textlink" target="_blank">MPI-overview.pdf</a> <a href="app4-programmation-parallele-2018/cours/MPI-cheatsheet.pdf" class="textlink" target="_blank">MPI-cheatsheet.pdf</a> <a href="app4-programmation-parallele-2018/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>  <a href="app4-programmation-parallele-2018/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
 
 
 #### TP
@@ -27,3 +27,5 @@ image:
 ##### TP4 - Introduction à OpenMP : <a href="app4-programmation-parallele-2018/tp/tp4/tp4.pdf" class="textlink" target="_blank">tp4.pdf</a>
 
 ##### TP5 - OpenMP Tasks: <a href="app4-programmation-parallele-2018/tp/tp5/tp5.pdf" class="textlink" target="_blank">tp5.pdf</a>
+
+##### TP6 - SIMD: <a href="app4-programmation-parallele-2018/tp/tp6/tp6.pdf" class="textlink" target="_blank">tp6.pdf</a>
