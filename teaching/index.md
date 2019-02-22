@@ -37,4 +37,4 @@ image:
 
 ### M1 Programmation Parallèle
 
-##### TP2 - Tri bitonique: <a href="app4-programmation-parallele-2018/tp/tp1/tp1-fr.pdf" class="textlink" target="_blank">tp1-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1.tar" class="textlink" target="_blank">tp1.tar</a>
+##### TP2 - Tri bitonique: <a href="app4-programmation-parallele-2018/tp/tp1/tp1-fr.pdf" class="textlink" target="_blank">tp1-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1.tar" class="textlink" target="_blank">tp1.tar</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1-sol.tar" class="textlink" target="_blank">tp1-sol.tar</a>
