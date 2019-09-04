@@ -7,7 +7,7 @@ share: false
 excerpt:
 tags: [research]
 image:
-  feature:
+feature:
 ---
 
 
@@ -16,6 +16,10 @@ image:
 #### Slides: <a href="app4-programmation-parallele-2018/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a> <a href="app4-programmation-parallele-2018/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
 
 #### Code: <a href="app4-programmation-parallele-2018/cours/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
+
+##### TP1 - SIMD: <a href="app4-programmation-parallele-2018/tp/tp6/tp6.pdf" class="textlink" target="_blank">tp6.pdf</a>
+
+
 <!---
 
 
@@ -31,8 +35,6 @@ image:
 ##### TP4 - Introduction à OpenMP : <a href="app4-programmation-parallele-2018/tp/tp4/tp4.pdf" class="textlink" target="_blank">tp4.pdf</a>
 
 ##### TP5 - OpenMP Tasks: <a href="app4-programmation-parallele-2018/tp/tp5/tp5.pdf" class="textlink" target="_blank">tp5.pdf</a>
-
-##### TP6 - SIMD: <a href="app4-programmation-parallele-2018/tp/tp6/tp6.pdf" class="textlink" target="_blank">tp6.pdf</a>
 
 -->
 
