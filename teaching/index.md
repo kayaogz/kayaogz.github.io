@@ -13,14 +13,26 @@ feature:
 
 ### APP4 Programmation Parallèle
 
-#### Slides: <a href="app4-programmation-parallele-2018/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a> <a href="app4-programmation-parallele-2018/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a> <a href="app4-programmation-parallele-2018/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+#### Slides:
+<a href="app4-programmation-parallele-2019/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
 
-#### Code: <a href="app4-programmation-parallele-2018/cours/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
+#### Code cours:
+<a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx.cpp" class="textlink" target="_blank">copy-vector-avx.cpp</a>
 
-##### TP1 - SIMD: <a href="app4-programmation-parallele-2018/tp/tp6/tp6.pdf" class="textlink" target="_blank">tp6.pdf</a>
+##### TP1 - SIMD:
+<a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
 
-##### TP2 - OpenMP: <a href="app4-programmation-parallele-2018/tp/tp4/tp4.pdf" class="textlink" target="_blank">tp4.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp4/matvec-squelette.cpp" class="textlink" target="_blank">matvec-squelette.cpp</a>
-
+##### TP2 - OpenMP: 
+<a href="app4-programmation-parallele-2019/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/calcul-pi-squelette.cpp" class="textlink" target="_blank">calcul-pi-squelette.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/goldbach-squelette.cpp" class="textlink" target="_blank">goldbach-squelette.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/matvec-squelette.cpp" class="textlink" target="_blank">matvec-squelette.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
 
 
 <!---
@@ -40,8 +52,3 @@ feature:
 ##### TP5 - OpenMP Tasks: <a href="app4-programmation-parallele-2018/tp/tp5/tp5.pdf" class="textlink" target="_blank">tp5.pdf</a>
 
 -->
-
-
-### M1 Programmation Parallèle
-
-##### TP2 - Tri bitonique: <a href="app4-programmation-parallele-2018/tp/tp1/tp1-fr.pdf" class="textlink" target="_blank">tp1-fr.pdf</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1.tar" class="textlink" target="_blank">tp1.tar</a> <a href="app4-programmation-parallele-2018/tp/tp1/tp1-sol.tar" class="textlink" target="_blank">tp1-sol.tar</a>
