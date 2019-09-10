@@ -21,6 +21,8 @@ feature:
 #### Code cours:
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx.cpp" class="textlink" target="_blank">copy-vector-avx.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/probleme-coherence.cpp" class="textlink" target="_blank">probleme-coherence.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/probleme-coherence-resolu.cpp" class="textlink" target="_blank">probleme-coherence-resolu.cpp</a>
 
 ##### TP1 - SIMD:
 <a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
