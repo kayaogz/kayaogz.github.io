@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 #include "mpi.h"
 
 int main(int argc, char **argv)
@@ -35,6 +36,20 @@ int main(int argc, char **argv)
   // Allouer a_local et b_local dans chaque processus, puis envoyer la partie correspondante du a_global et b_global du 
   // processus 0 a chaque processus
   // A FAIRE ...
+  a_local = (double *) malloc (sizeof(double) * N / size);
+  b_local = (double *) malloc (sizeof(double) * N / size);
+  if (rank == 0) { // Envoyer les parties correspondantes de a_global et b_global aux processus
+    for (int i = 1; i < size; i++) {
+      MPI_Send(&a_global[i * N / size], N / size, MPI_DOUBLE, i, 0, MPI_COMM_WORLD);
+      MPI_Send(&b_global[i * N / size], N / size, MPI_DOUBLE, i, 1, MPI_COMM_WORLD);
+    }
+    for (int i = 0; i < N / size; i++) { 
+      a_local[i] = a_global[i];
+      b_local[i] = b_global[i];
+    }
+  } else { // Recevoir les parties correspondantes de a_global et b_global dans chaque processus
+    
+  }
 
   // Calculer le produit scalaire local dans chaque processus, puis envoyer le resultat au processus 0 pour sommer
   // A FAIRE ...
