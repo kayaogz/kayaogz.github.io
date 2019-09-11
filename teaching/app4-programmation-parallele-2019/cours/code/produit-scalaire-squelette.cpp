@@ -48,7 +48,8 @@ int main(int argc, char **argv)
       b_local[i] = b_global[i];
     }
   } else { // Recevoir les parties correspondantes de a_global et b_global dans chaque processus
-    
+    MPI_Recv(&a_local[0], N / size, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+    MPI_Recv(&b_local[0], N / size, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
   }
 
   // Calculer le produit scalaire local dans chaque processus, puis envoyer le resultat au processus 0 pour sommer
