@@ -25,6 +25,7 @@ int main(int argc, char **argv)
   // Envoyer la taille de tableau a chaque processus. On suppose que N est divisible par le nombre de processus.
   // A FAIRE ...
   if (rank == 0) { // J'envois a tout le monde
+    MPI_Request *req = (MPI_Request *) malloc (size * sizeof(MPI_Request));
     for (int i = 1; i < size; i++) {
       MPI_Send(&N, 1, MPI_INT, i, 0, MPI_COMM_WORLD);
     }
