@@ -23,6 +23,14 @@ int main(int argc, char **argv)
   }
   // Envoyer la taille de tableau a chaque processus. On suppose que N est divisible par le nombre de processus.
   // A FAIRE ...
+  if (rank == 0) { // J'envois a tout le monde
+    for (int i = 1; i < size; i++) {
+      MPI_Send(&N, 1, MPI_INT, i, 0, MPI_COMM_WORLD);
+    }
+  } else { // Je recois du processus 0
+    MPI_Recv(&N, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+    std::cout << rank << " " << N << std::endl;
+  }
 
   // Allouer a_local et b_local dans chaque processus, puis envoyer la partie correspondante du a_global et b_global du 
   // processus 0 a chaque processus
