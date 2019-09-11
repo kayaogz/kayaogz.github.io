@@ -13,7 +13,7 @@ int main(int argc, char **argv)
   
   // Initialiser les tableaux a_global et b_global dans le processus 0
   if (rank == 0) {
-    N + 32;
+    N = 32;
     a_global = (double *) malloc(N * sizeof(double));
     b_global = (double *) malloc(N * sizeof(double));
     for (int i = 0; i < N; i++) {
