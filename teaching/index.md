@@ -17,12 +17,17 @@ feature:
 <a href="app4-programmation-parallele-2019/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/mpi1.pdf" class="textlink" target="_blank">mpi1.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/mpi2.pdf" class="textlink" target="_blank">mpi2.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/mpi3.pdf" class="textlink" target="_blank">mpi3.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
 
 #### Code cours:
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx.cpp" class="textlink" target="_blank">copy-vector-avx.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence.cpp" class="textlink" target="_blank">probleme-coherence.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence-resolu.cpp" class="textlink" target="_blank">probleme-coherence-resolu.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/openmp-interro.cpp" class="textlink" target="_blank">openmp-interro.cpp</a>
 
 ##### TP1 - SIMD:
 <a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
