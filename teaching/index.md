@@ -28,6 +28,7 @@ feature:
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence.cpp" class="textlink" target="_blank">probleme-coherence.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence-resolu.cpp" class="textlink" target="_blank">probleme-coherence-resolu.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/openmp-interro.cpp" class="textlink" target="_blank">openmp-interro.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/produit-scalaire-squelette.cpp" class="textlink" target="_blank">produit-scalaire-squelette.cpp</a>
 
 ##### TP1 - SIMD:
 <a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
