@@ -53,13 +53,25 @@ int main(int argc, char **argv)
   }
 
   // Calculer le produit scalaire local dans chaque processus, puis envoyer le resultat au processus 0 pour sommer
-  // A FAIRE ...
-
   // Afficher le resultat du processus 0
   // A FAIRE ...
+  double somme = 0.0;
+  for (int i = 0; i < N / size; i++) { somme += a_local[i] * b_local[i]; }
+  if (rank == 0) { // Recevoir la somme partielle de tous les processus
+    for (int i = 1; i < size; i++) {
+      double temp;
+      MPI_Recv(&temp, 1, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+      somme += temp;
+    }
+    std::cout << "Produit scalaire: " << somme;
+  } else { // Envoyer la somme partielle au processus 0
+    MPI_Send(&somme, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
+  }
 
   // Desallouer a_local et b_local dans chaque processus
   // A FAIRE ...
+  free(a_local);
+  free(b_local);
 
   // Desallouer a_global et b_global
   if (rank == 0) {
