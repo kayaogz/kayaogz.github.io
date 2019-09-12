@@ -12,10 +12,10 @@ int main(int argc, char **argv)
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
   // Allouer et initialiser A, x et b dans le processus 0
-  b = (double *)malloc(N * N * sizeof(double)); // On a besoin de b dans tous les processus
+  b = (double *)malloc(N * sizeof(double)); // On a besoin de b dans tous les processus
   if (rank == 0) {
     A = (double *)malloc(N * N * sizeof(double));
-    x = (double *)malloc(N * N * sizeof(double));
+    x = (double *)malloc(N * sizeof(double));
     for (int i = 0; i < N; i++) {
       x[i] = 0.0;
       for (int j = 0; j < N; j++) { 
