@@ -11,28 +11,30 @@ int main(int argc, char **argv)
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-  // Allouer et initialiser A, x et b dans le processus 0
-  b = (double *)malloc(N * sizeof(double)); // On a besoin de b dans tous les processus
+  // Allouer x et b dans tous les processus 
+  b = (double *)malloc(N * sizeof(double));
+  x = (double *)malloc(N * sizeof(double));
+  // Allouer A, puis initialiser A et x dans le processus 0
   if (rank == 0) {
     A = (double *)malloc(N * N * sizeof(double));
-    x = (double *)malloc(N * sizeof(double));
     for (int i = 0; i < N; i++) {
-      x[i] = 0.0;
+      x[i] = 1.0;
       for (int j = 0; j < N; j++) { 
         A[i * N + j] = i + j; // On accede a A(i, j) par A[i * N + j] car A est orientee par des lignes
       }
     }
   }
 
-  // Distribuer A dans les processus tel que chaque processus recoit N / size lignes de A
+  // Distribuer A dans les processus tel que chaque processus recoit N / size lignes de A dans Alocal
   // A FAIRE ...
+  double *Alocal;
 
   // Distribuer x entier dans tous les processus
   // A FAIRE ...
 
-  // Effectuer le produit matrice-vecteur local dans b_local
+  // Effectuer le produit matrice-vecteur local dans blocal
   // A FAIRE ...
-  double *b_local;
+  double *blocal;
 
   // Mettre ensemble le resultat b dans tous les processus
   // A FAIRE ...
@@ -45,16 +47,14 @@ int main(int argc, char **argv)
       break;
     }
     if (i == N - 1) {
-      std::cout << "Produit matrice-vecteur est effectue avec succes!\n";
+      std::cout << "Produit matrice-vecteur est effectue avec succes dans le processus " << rank << "!\n";
     }
   }
 
   // Desallouer A, x et b
   free(b);
-  if (rank == 0) {
-    free(A);
-    free(x);
-  }
+  free(x);
+  if (rank == 0) { free(A); }
 
   MPI_Finalize();
   return 0;
