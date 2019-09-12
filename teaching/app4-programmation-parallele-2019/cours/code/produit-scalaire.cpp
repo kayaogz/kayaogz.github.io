@@ -40,34 +40,48 @@ int main(int argc, char **argv)
   // processus 0 a chaque processus
   a_local = (double *) malloc (sizeof(double) * N / size);
   b_local = (double *) malloc (sizeof(double) * N / size);
-  if (rank == 0) { // Envoyer les parties correspondantes de a_global et b_global aux processus
-    for (int i = 1; i < size; i++) {
-      MPI_Send(&a_global[i * N / size], N / size, MPI_DOUBLE, i, 0, MPI_COMM_WORLD);
-      MPI_Send(&b_global[i * N / size], N / size, MPI_DOUBLE, i, 1, MPI_COMM_WORLD);
-    }
-    for (int i = 0; i < N / size; i++) { 
-      a_local[i] = a_global[i];
-      b_local[i] = b_global[i];
-    }
-  } else { // Recevoir les parties correspondantes de a_global et b_global dans chaque processus
-    MPI_Recv(&a_local[0], N / size, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-    MPI_Recv(&b_local[0], N / size, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-  }
+
+  MPI_Scatter(&a_global[0], N / size, MPI_DOUBLE, &a_local[0], N / size, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  MPI_Scatter(&b_global[0], N / size, MPI_DOUBLE, &b_local[0], N / size, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+//  if (rank == 0) { // Envoyer les parties correspondantes de a_global et b_global aux processus
+//    for (int i = 1; i < size; i++) {
+//      MPI_Send(&a_global[i * N / size], N / size, MPI_DOUBLE, i, 0, MPI_COMM_WORLD);
+//      MPI_Send(&b_global[i * N / size], N / size, MPI_DOUBLE, i, 1, MPI_COMM_WORLD);
+//    }
+//    for (int i = 0; i < N / size; i++) { 
+//      a_local[i] = a_global[i];
+//      b_local[i] = b_global[i];
+//    }
+//  } else { // Recevoir les parties correspondantes de a_global et b_global dans chaque processus
+//    MPI_Recv(&a_local[0], N / size, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+//    MPI_Recv(&b_local[0], N / size, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+//  }
 
   // Calculer le produit scalaire local dans chaque processus, puis envoyer le resultat au processus 0 pour sommer
   // Afficher le resultat du processus 0
   double somme = 0.0;
   for (int i = 0; i < N / size; i++) { somme += a_local[i] * b_local[i]; }
-  if (rank == 0) { // Recevoir la somme partielle de tous les processus
-    for (int i = 1; i < size; i++) {
-      double temp;
-      MPI_Recv(&temp, 1, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-      somme += temp;
-    }
+
+  double *rbuf;
+  if (rank == 0) { rbuf = (double *) malloc(size * sizeof(double)); }
+  MPI_Gather(&somme, 1, MPI_DOUBLE, rbuf, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  if (rank == 0) {
+    for (int i = 1; i < size; i++) { somme += rbuf[i]; }
     std::cout << "Produit scalaire: " << somme;
-  } else { // Envoyer la somme partielle au processus 0
-    MPI_Send(&somme, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
   }
+  if (rank == 0) { free(rbuf); }
+
+//  if (rank == 0) { // Recevoir la somme partielle de tous les processus
+//    for (int i = 1; i < size; i++) {
+//      double temp;
+//      MPI_Recv(&temp, 1, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+//      somme += temp;
+//    }
+//    std::cout << "Produit scalaire: " << somme;
+//  } else { // Envoyer la somme partielle au processus 0
+//    MPI_Send(&somme, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
+//  }
 
   // Desallouer a_local et b_local dans chaque processus
   // A FAIRE ...

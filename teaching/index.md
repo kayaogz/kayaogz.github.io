@@ -45,6 +45,7 @@ feature:
 
 ##### TP3 - MPI:
 <a href="app4-programmation-parallele-2019/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-squelette.cpp" class="textlink" target="_blank">matvec-mpi-squelette.cpp</a>
 
 <!---
 
