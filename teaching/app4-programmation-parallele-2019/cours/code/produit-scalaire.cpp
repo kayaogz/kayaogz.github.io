@@ -26,8 +26,10 @@ int main(int argc, char **argv)
   if (rank == 0) { // J'envois a tout le monde
     MPI_Request *req = (MPI_Request *) malloc (size * sizeof(MPI_Request));
     for (int i = 1; i < size; i++) {
-      MPI_Send(&N, 1, MPI_INT, i, 0, MPI_COMM_WORLD);
+      MPI_Isend(&N, 1, MPI_INT, i, 0, MPI_COMM_WORLD, &req[i]);
     }
+//    for (int i = 1; i < size; i++) { MPI_Wait(&req[i], MPI_STATUS_IGNORE); }
+    MPI_Waitall(size - 1, &req[1], MPI_STATUSES_IGNORE);
   } else { // Je recois du processus 0
     MPI_Recv(&N, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
     std::cout << rank << " " << N << std::endl;
