@@ -54,6 +54,12 @@ feature:
 <a href="calcul-haute-performance-2019/tp1/bitonic-sort.cpp" class="textlink" target="_blank">bitonic-sort.cpp</a>
 <a href="calcul-haute-performance-2019/tp1/gen-bitonic-array.py" class="textlink" target="_blank">gen-bitonic-array.py</a>
 
+##### TP2 - OpenMP:
+<a href="calcul-haute-performance-2019/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
+<a href="calcul-haute-performance-2019/tp2/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="calcul-haute-performance-2019/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="calcul-haute-performance-2019/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+
 <!---
 
 
