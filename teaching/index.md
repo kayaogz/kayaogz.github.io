@@ -47,6 +47,13 @@ feature:
 <a href="app4-programmation-parallele-2019/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
 <a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-squelette.cpp" class="textlink" target="_blank">matvec-mpi-squelette.cpp</a>
 
+
+### M2FIIL Calcul Haute Performance
+##### TP1 - MPI:
+<a href="calcul-haute-performance-2019/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
+<a href="calcul-haute-performance-2019/tp1/bitonic-sort.cpp" class="textlink" target="_blank">bitonic-sort.cpp</a>
+<a href="calcul-haute-performance-2019/tp1/gen-bitonic-array.py" class="textlink" target="_blank">gen-bitonic-array.py</a>
+
 <!---
 
 

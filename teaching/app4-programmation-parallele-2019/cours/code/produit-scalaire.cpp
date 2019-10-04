@@ -84,7 +84,6 @@ int main(int argc, char **argv)
 //  }
 
   // Desallouer a_local et b_local dans chaque processus
-  // A FAIRE ...
   free(a_local);
   free(b_local);
 
