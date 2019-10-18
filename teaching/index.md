@@ -60,6 +60,9 @@ feature:
 <a href="calcul-haute-performance-2019/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
 <a href="calcul-haute-performance-2019/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
 
+##### TP3 - SIMD:
+<a href="calcul-haute-performance-2019/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
+
 <!---
 
 
