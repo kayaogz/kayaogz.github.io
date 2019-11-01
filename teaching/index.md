@@ -49,6 +49,13 @@ feature:
 
 
 ### M2FIIL Calcul Haute Performance
+#### Slides:
+<a href="calcul-haute-performance-2019/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
+<a href="calcul-haute-performance-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+<a href="calcul-haute-performance-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
+<a href="calcul-haute-performance-2019/cours/acces-donne.pdf" class="textlink" target="_blank">acces-donne.pdf</a>
+<a href="calcul-haute-performance-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
+
 ##### TP1 - MPI:
 <a href="calcul-haute-performance-2019/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
 <a href="calcul-haute-performance-2019/tp1/bitonic-sort.cpp" class="textlink" target="_blank">bitonic-sort.cpp</a>
