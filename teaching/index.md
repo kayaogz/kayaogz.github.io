@@ -59,16 +59,23 @@ feature:
 ##### TP1 - MPI:
 <a href="calcul-haute-performance-2019/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
 <a href="calcul-haute-performance-2019/tp1/bitonic-sort.cpp" class="textlink" target="_blank">bitonic-sort.cpp</a>
+<a href="calcul-haute-performance-2019/tp1/bitonic-sort-ref.cpp" class="textlink" target="_blank">bitonic-sort-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp1/gen-bitonic-array.py" class="textlink" target="_blank">gen-bitonic-array.py</a>
 
 ##### TP2 - OpenMP:
 <a href="calcul-haute-performance-2019/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
 <a href="calcul-haute-performance-2019/tp2/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="calcul-haute-performance-2019/tp2/calcul-pi-ref.cpp" class="textlink" target="_blank">calcul-pi-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="calcul-haute-performance-2019/tp2/goldbach-ref.cpp" class="textlink" target="_blank">goldbach-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+<a href="calcul-haute-performance-2019/tp2/matvec-ref.cpp" class="textlink" target="_blank">matvec-ref.cpp</a>
 
 ##### TP3 - SIMD:
 <a href="calcul-haute-performance-2019/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
+<a href="calcul-haute-performance-2019/tp3/copier-vecteur-avx-ref.cpp" class="textlink" target="_blank">copier-vecteur-ref.cpp</a>
+<a href="calcul-haute-performance-2019/tp3/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
+<a href="calcul-haute-performance-2019/tp3/calcul-filtres-avx-ref.cpp" class="textlink" target="_blank">calcul-filtres-avx-ref.cpp</a>
 
 <!---
 
