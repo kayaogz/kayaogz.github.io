@@ -11,6 +11,8 @@ feature:
 ---
 
 
+<!---
+
 ### APP4 Programmation Parallèle
 
 #### Slides:
@@ -63,19 +65,33 @@ feature:
 <a href="calcul-haute-performance-2019/tp1/gen-bitonic-array.py" class="textlink" target="_blank">gen-bitonic-array.py</a>
 
 ##### TP2 - OpenMP:
-<a href="calcul-haute-performance-2019/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
-<a href="calcul-haute-performance-2019/tp2/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
-<a href="calcul-haute-performance-2019/tp2/calcul-pi-ref.cpp" class="textlink" target="_blank">calcul-pi-ref.cpp</a>
-<a href="calcul-haute-performance-2019/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
-<a href="calcul-haute-performance-2019/tp2/goldbach-ref.cpp" class="textlink" target="_blank">goldbach-ref.cpp</a>
-<a href="calcul-haute-performance-2019/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
-<a href="calcul-haute-performance-2019/tp2/matvec-ref.cpp" class="textlink" target="_blank">matvec-ref.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
+<a href="programmation-parallele-distribuee-2019/tp1/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/calcul-pi-ref.cpp" class="textlink" target="_blank">calcul-pi-ref.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/goldbach-ref.cpp" class="textlink" target="_blank">goldbach-ref.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec-ref.cpp" class="textlink" target="_blank">matvec-ref.cpp</a>
 
 ##### TP3 - SIMD:
 <a href="calcul-haute-performance-2019/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
 <a href="calcul-haute-performance-2019/tp3/copier-vecteur-avx-ref.cpp" class="textlink" target="_blank">copier-vecteur-avx-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp3/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp3/calcul-filtres-avx-ref.cpp" class="textlink" target="_blank">calcul-filtres-avx-ref.cpp</a>
+
+-->
+
+### M1 Programmation Parallèle et Distribuée
+#### Slides:
+<a href="programmation-parallele-distribuee-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+<a href="programmation-parallele-distribuee-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
+
+#### TP1 - OpenMP
+<a href="programmation-parallele-distribuee-2019/tp1/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
+<a href="programmation-parallele-distribuee-2019/tp1/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+
 
 <!---
 
