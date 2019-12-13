@@ -59,7 +59,7 @@ int main(int argc, char **argv)
   }
   end = std::chrono::high_resolution_clock::now();
   std::chrono::duration<double> diffParDeroule = end-start;
-  std::cout << std::scientific << "Copier avec AVX et deroulement: " << diffParDeroule.count() << "s" << std::endl;
+  std::cout << std::scientific << "Copier avec AVX et deroulement: " << diffParDeroule.count() / NREPET << "s" << std::endl;
   // Afficher l'acceleration et l'efficacite
   // ...
 
