@@ -96,6 +96,7 @@ feature:
 #### TP2 - SIMD
 <a href="programmation-parallele-distribuee-2019/tp2/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="programmation-parallele-distribuee-2019/tp2/copier-vecteur-avx.cpp" class="textlink" target="_blank">copier-vecteur-avx.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp2/produit-scalaire-avx.cpp" class="textlink" target="_blank">produit-scalaire-avx.cpp</a>
 
 <!---
 
