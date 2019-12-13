@@ -1,6 +1,6 @@
 /**
   * Copie d'un tableau dans un autre avec les intrinseques AVX.
-  * A compiler avec les drapeaux -O2 et -mavx.
+  * A compiler avec les drapeaux -O2 -mavx2.
   */
 
 #include <immintrin.h>

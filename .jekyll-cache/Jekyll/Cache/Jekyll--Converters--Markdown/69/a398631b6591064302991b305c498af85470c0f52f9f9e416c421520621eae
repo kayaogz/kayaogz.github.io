@@ -1,17 +1,4 @@
----
-layout: page
-title: Teaching
-date: {{ date }}
-modified:
-share: false
-excerpt:
-tags: [research]
-image:
-feature:
----
-
-
-<!---
+I"n!<!---
 
 ### APP4 Programmation Parallèle
 
@@ -81,21 +68,22 @@ feature:
 
 -->
 
-### M1 Programmation Parallèle et Distribuée
-#### Slides:
-<a href="programmation-parallele-distribuee-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
-<a href="programmation-parallele-distribuee-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
+<h3 id="m1-programmation-parallèle-et-distribuée">M1 Programmation Parallèle et Distribuée</h3>
+<h4 id="slides">Slides:</h4>
+<p><a href="programmation-parallele-distribuee-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
+<a href="programmation-parallele-distribuee-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a></p>
 
-#### TP1 - OpenMP
-<a href="programmation-parallele-distribuee-2019/tp1/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
+<h4 id="tp1---openmp">TP1 - OpenMP</h4>
+<p><a href="programmation-parallele-distribuee-2019/tp1/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="programmation-parallele-distribuee-2019/tp1/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp1/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
-<a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a></p>
 
-
-#### TP2 - SIMD
-<a href="programmation-parallele-distribuee-2019/tp2/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
+<h4 id="tp2---simd">TP2 - SIMD</h4>
+<p><a href="programmation-parallele-distribuee-2019/tp2/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="programmation-parallele-distribuee-2019/tp2/copier-vecteur-avx.cpp" class="textlink" target="_blank">copier-vecteur-avx.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a></p>
 
 <!---
 
@@ -114,3 +102,4 @@ feature:
 ##### TP5 - OpenMP Tasks: <a href="app4-programmation-parallele-2018/tp/tp5/tp5.pdf" class="textlink" target="_blank">tp5.pdf</a>
 
 -->
+:ET
