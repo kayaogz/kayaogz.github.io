@@ -1,41 +1,40 @@
-I"�!<!---
+I"M"<h3 id="app4-programmation-parallèle">APP4 Programmation Parallèle</h3>
 
-### APP4 Programmation Parallèle
-
-#### Slides:
-<a href="app4-programmation-parallele-2019/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
+<h4 id="slides">Slides:</h4>
+<p><a href="app4-programmation-parallele-2019/cours/intro.pdf" class="textlink" target="_blank">intro.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/mpi1.pdf" class="textlink" target="_blank">mpi1.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/mpi2.pdf" class="textlink" target="_blank">mpi2.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/mpi3.pdf" class="textlink" target="_blank">mpi3.pdf</a>
-<a href="app4-programmation-parallele-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
+<a href="app4-programmation-parallele-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a></p>
 
-#### Code cours:
-<a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
+<h4 id="code-cours">Code cours:</h4>
+<p><a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx.cpp" class="textlink" target="_blank">copy-vector-avx.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence.cpp" class="textlink" target="_blank">probleme-coherence.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/probleme-coherence-resolu.cpp" class="textlink" target="_blank">probleme-coherence-resolu.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/openmp-interro.cpp" class="textlink" target="_blank">openmp-interro.cpp</a>
 <a href="app4-programmation-parallele-2019/cours/code/produit-scalaire-squelette.cpp" class="textlink" target="_blank">produit-scalaire-squelette.cpp</a>
-<a href="app4-programmation-parallele-2019/cours/code/produit-scalaire.cpp" class="textlink" target="_blank">produit-scalaire.cpp</a>
+<a href="app4-programmation-parallele-2019/cours/code/produit-scalaire.cpp" class="textlink" target="_blank">produit-scalaire.cpp</a></p>
 
-##### TP1 - SIMD:
-<a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
+<h5 id="tp1---simd">TP1 - SIMD:</h5>
+<p><a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a></p>
 
-##### TP2 - OpenMP: 
-<a href="app4-programmation-parallele-2019/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
+<h5 id="tp2---openmp">TP2 - OpenMP:</h5>
+<p><a href="app4-programmation-parallele-2019/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
 <a href="app4-programmation-parallele-2019/tp/tp2/calcul-pi-squelette.cpp" class="textlink" target="_blank">calcul-pi-squelette.cpp</a>
 <a href="app4-programmation-parallele-2019/tp/tp2/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
 <a href="app4-programmation-parallele-2019/tp/tp2/goldbach-squelette.cpp" class="textlink" target="_blank">goldbach-squelette.cpp</a>
 <a href="app4-programmation-parallele-2019/tp/tp2/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
 <a href="app4-programmation-parallele-2019/tp/tp2/matvec-squelette.cpp" class="textlink" target="_blank">matvec-squelette.cpp</a>
-<a href="app4-programmation-parallele-2019/tp/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a></p>
 
-##### TP3 - MPI:
-<a href="app4-programmation-parallele-2019/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
-<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-squelette.cpp" class="textlink" target="_blank">matvec-mpi-squelette.cpp</a>
+<h5 id="tp3---mpi">TP3 - MPI:</h5>
+<p><a href="app4-programmation-parallele-2019/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-squelette.cpp" class="textlink" target="_blank">matvec-mpi-squelette.cpp</a></p>
 
+<!---
 
 ### M2FIIL Calcul Haute Performance
 #### Slides:
@@ -69,7 +68,7 @@
 -->
 
 <h3 id="m1-programmation-parallèle-et-distribuée">M1 Programmation Parallèle et Distribuée</h3>
-<h4 id="slides">Slides:</h4>
+<h4 id="slides-1">Slides:</h4>
 <p><a href="programmation-parallele-distribuee-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
 <a href="programmation-parallele-distribuee-2019/cours/simd.pdf" class="textlink" target="_blank">simd.pdf</a></p>
 
