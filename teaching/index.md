@@ -21,7 +21,7 @@ feature:
 <a href="app4-programmation-parallele-2019/cours/mpi2.pdf" class="textlink" target="_blank">mpi2.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/mpi3.pdf" class="textlink" target="_blank">mpi3.pdf</a>
 <a href="app4-programmation-parallele-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
-<a href="app4-programmation-parallele-2019/examen_app4_17_18.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
+<a href="app4-programmation-parallele-2019/examen-app4-17-18.pdf" class="textlink" target="_blank">examen-app4-17-18.pdf</a>
 
 #### Code cours:
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
