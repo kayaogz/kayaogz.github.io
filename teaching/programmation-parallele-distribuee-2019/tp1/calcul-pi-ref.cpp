@@ -14,18 +14,26 @@ int main()
   double pi = 0.0;
   double s = 1 / (double)N;
 
-  // En premiere partie, calculer le pi avec omp for et reduction
+  // Calculer le pi en sequentiel
   auto start = std::chrono::high_resolution_clock::now();
-#pragma omp parallel for reduction(+:pi)
   for (i = 0; i < N; i++) {
-    double si = i * 1 / N;
     pi = pi + s * (f(i * s) + f((i + 1) * s)) / 2;
   }  
   std::cout << "pi = " << pi << std::endl;
   std::chrono::duration<double> tempsOmpFor = std::chrono::high_resolution_clock::now() - start;
   std::cout << "Temps parallel omp for: " << tempsOmpFor.count() << "s\n";
 
-  // En deuxieme partie, calculer le pi avec boucle parallele faite a la main
+  // Calculer le pi avec omp for et reduction
+  auto start = std::chrono::high_resolution_clock::now();
+#pragma omp parallel for reduction(+:pi)
+  for (i = 0; i < N; i++) {
+    pi = pi + s * (f(i * s) + f((i + 1) * s)) / 2;
+  }  
+  std::cout << "pi = " << pi << std::endl;
+  std::chrono::duration<double> tempsOmpFor = std::chrono::high_resolution_clock::now() - start;
+  std::cout << "Temps parallel omp for: " << tempsOmpFor.count() << "s\n";
+
+  // Calculer le pi avec boucle parallele faite a la main
   pi = 0.0;
   start = std::chrono::high_resolution_clock::now();
 #pragma omp parallel 
@@ -39,10 +47,9 @@ int main()
     else { thFin = thDebut + elemParTh; }
     double piLocal = 0.0;
     for (int i = thDebut; i < thFin; i++) {
-      double si = i * 1 / N;
       piLocal = piLocal + s * (f(i * s) + f((i + 1) * s)) / 2;
     }
-#pragma omp critical
+#pragma omp atomic // Ou alors #pragma omp critical, mais atomic est plus rapide
     pi += piLocal;
   }
   std::cout << "pi = " << pi << std::endl;

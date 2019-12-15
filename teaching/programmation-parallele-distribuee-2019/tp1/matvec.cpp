@@ -53,7 +53,7 @@ int main(int argc, char **argv)
   std::cout << std::scientific << "Temps d'execution parallele avec omp tasks: " << tempsParTasks.count() / NREPET <<
     "s" << std::endl;
 
-  // Calculer et afficher l'acceleration et l'efficacite
+  // Calculer et afficher l'acceleration et l'efficacite de la parallelisation avec omp for
   double acceleration = 0.0;
   double efficacite = 0.0;
   // A FAIRE ...

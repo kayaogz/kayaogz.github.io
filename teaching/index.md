@@ -33,6 +33,10 @@ feature:
 
 ##### TP1 - SIMD:
 <a href="app4-programmation-parallele-2019/tp/tp1/tp1.pdf" class="textlink" target="_blank">tp1.pdf</a>
+<a href="app4-programmation-parallele-2019/tp/tp1/copier-vecteur-avx.cpp" class="textlink" target="_blank">copier-vecteur-avx.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp1/copier-vecteur-avx-ref.cpp" class="textlink" target="_blank">copier-vecteur-avx-ref.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp1/produit-scalaire-avx.cpp" class="textlink" target="_blank">produit-scalaire-avx.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp1/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
 
 ##### TP2 - OpenMP: 
 <a href="app4-programmation-parallele-2019/tp/tp2/tp2.pdf" class="textlink" target="_blank">tp2.pdf</a>
@@ -44,8 +48,11 @@ feature:
 <a href="app4-programmation-parallele-2019/tp/tp2/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
 
 ##### TP3 - MPI:
-<a href="app4-programmation-parallele-2019/tp/tp3/tp3.pdf" class="textlink" target="_blank">tp3.pdf</a>
-<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-squelette.cpp" class="textlink" target="_blank">matvec-mpi-squelette.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/ping-pong-ref.cpp" class="textlink" target="_blank">ping-pong-ref.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/calcul-pi-ref.cpp" class="textlink" target="_blank">calcul-pi-ref.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi.cpp" class="textlink" target="_blank">matvec-mpi.cpp</a>
+<a href="app4-programmation-parallele-2019/tp/tp3/matvec-mpi-ref.cpp" class="textlink" target="_blank">matvec-mpi-ref.cpp</a>
 
 
 <!---
@@ -89,15 +96,21 @@ feature:
 #### TP1 - OpenMP
 <a href="programmation-parallele-distribuee-2019/tp1/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="programmation-parallele-distribuee-2019/tp1/calcul-pi.cpp" class="textlink" target="_blank">calcul-pi.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/calcul-pi-ref.cpp" class="textlink" target="_blank">calcul-pi-ref.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp1/goldbach.cpp" class="textlink" target="_blank">goldbach.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/goldbach-ref.cpp" class="textlink" target="_blank">goldbach-ref.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp1/matvec.cpp" class="textlink" target="_blank">matvec.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp1/matvec-ref.cpp" class="textlink" target="_blank">matvec-ref.cpp</a>
 
 
 #### TP2 - SIMD
 <a href="programmation-parallele-distribuee-2019/tp2/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="programmation-parallele-distribuee-2019/tp2/copier-vecteur-avx.cpp" class="textlink" target="_blank">copier-vecteur-avx.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp2/copier-vecteur-avx-ref.cpp" class="textlink" target="_blank">copier-vecteur-avx-ref.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp2/produit-scalaire-avx.cpp" class="textlink" target="_blank">produit-scalaire-avx.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp2/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp2/inversion-tableau-avx.cpp" class="textlink" target="_blank">inversion-tableau-avx.cpp</a>
+<a href="programmation-parallele-distribuee-2019/tp2/inversion-tableau-avx-ref.cpp" class="textlink" target="_blank">inversion-tableau-avx-ref.cpp</a>
 
 <!---
 

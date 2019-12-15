@@ -53,13 +53,38 @@ int main(int argc, char **argv)
     }
   }  
   std::chrono::duration<double> tempsPar = std::chrono::high_resolution_clock::now() - start;
-  std::cout << std::scientific << "Temps d'execution parallele: " << tempsPar.count() / NREPET << "s" << std::endl;
+  std::cout << std::scientific << "Temps d'execution parallele avec omp for: " << tempsPar.count() / NREPET << "s" <<
+    std::endl;
 
-  // Calculer et afficher l'acceleration et l'efficacite
+  // Calculer b = A * x NREPET fois en parallele avec omp task
+  start = std::chrono::high_resolution_clock::now();
+  for (int repet = 0; repet < NREPET; repet++) {
+#pragma omp parallel
+    {
+      // Les taches sont generees par un thread dans une region parallele mais executees par tous les threads
+#pragma omp single nowait
+      for (int i = 0; i < dim; i++) {
+#pragma omp task firstprivate(i) // Pour produit scalaire b[i] on genere une tache.
+        { 
+          double res = 0.0; // Il faut travailler sur une variable temporaire pour eviter le faux partage
+          for (int j = 0; j < dim; j++) {
+            res += A[i * dim + j] * x[j];
+          }
+          b[i] = res; // Une seule ecriture qui evite le faux partage
+        }
+      }
+    }
+  }  
+  std::chrono::duration<double> tempsParTasks = std::chrono::high_resolution_clock::now() - start;
+  std::cout << std::scientific << "Temps d'execution parallele avec omp tasks: " << tempsParTasks.count() / NREPET <<
+    "s" << std::endl;
+
+
+  // Calculer et afficher l'acceleration et l'efficacite de la parallelisation avec omp for
   int numThreads;
 #pragma omp parallel
 #pragma omp single
-    numThreads = omp_get_num_threads();
+    numThreads = omp_get_num_threads(); // Attention, dans un region sequentiel omp_get_num_threads() rend 1
   std::cout << "Acceleration: " << tempsSeq.count() / tempsPar.count() << std::endl;
   std::cout << "Efficacite: " << tempsSeq.count() / (numThreads * tempsPar.count()) << std::endl;
 
