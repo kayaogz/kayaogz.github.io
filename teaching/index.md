@@ -59,8 +59,10 @@ feature:
 
 ##### TP4 - CUDA
 Sujet: 
-<a href="app4-programmation-parallele-2019/tp/tp4/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
+<a href="http://www.metz.supelec.fr/metz/personnel/vialle/course/PPS-5A-GPGPU/TP-CUDA/TP-1-CUDA-bases.html" class="textlink" target="_blank">sujet.html</a>
+<a href="http://www.metz.supelec.fr/metz/personnel/vialle/course/PPS-5A-GPGPU/TP-CUDA/MatrixProduct-CUDA-CS-Cameron-enonce.zip" class="textlink" target="_blank">code-squelette.zip</a>
 <!---
+<a href="app4-programmation-parallele-2019/tp/tp4/sujet.pdf" class="textlink" target="_blank">sujet.pdf</a>
 <a href="app4-programmation-parallele-2019/tp/tp4/correction.zip" class="textlink" target="_blank">correction.zip</a>
 -->
 
