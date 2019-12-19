@@ -24,6 +24,7 @@ feature:
 <a href="app4-programmation-parallele-2019/cours/gpu2.pptx" class="textlink" target="_blank">gpu2.pptx</a>
 <a href="app4-programmation-parallele-2019/cours/mpi-quick-ref.pdf" class="textlink" target="_blank">mpi-quick-ref.pdf</a>
 <a href="app4-programmation-parallele-2019/examen-app4-17-18.pdf" class="textlink" target="_blank">examen-app4-17-18.pdf</a>
+<a href="app4-programmation-parallele-2019/inversion.cpp" class="textlink" target="_blank">inversion.cpp</a>
 
 #### Code cours:
 <a href="app4-programmation-parallele-2019/cours/code/copy-vector-avx-squelette.cpp" class="textlink" target="_blank">copy-vector-avx-squelette.cpp</a>
