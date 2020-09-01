@@ -11,6 +11,7 @@ feature:
 ---
 
 
+<!--
 ### APP4 Programmation Parallèle
 
 #### Slides:
@@ -100,8 +101,6 @@ Sujet:
 <a href="calcul-haute-performance-2019/tp3/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
 <a href="calcul-haute-performance-2019/tp3/calcul-filtres-avx-ref.cpp" class="textlink" target="_blank">calcul-filtres-avx-ref.cpp</a>
 
--->
-
 ### M1 Programmation Parallèle et Distribuée
 #### Slides:
 <a href="programmation-parallele-distribuee-2019/cours/openmp.pdf" class="textlink" target="_blank">openmp.pdf</a>
@@ -125,9 +124,6 @@ Sujet:
 <a href="programmation-parallele-distribuee-2019/tp2/produit-scalaire-avx-ref.cpp" class="textlink" target="_blank">produit-scalaire-avx-ref.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp2/inversion-tableau-avx.cpp" class="textlink" target="_blank">inversion-tableau-avx.cpp</a>
 <a href="programmation-parallele-distribuee-2019/tp2/inversion-tableau-avx-ref.cpp" class="textlink" target="_blank">inversion-tableau-avx-ref.cpp</a>
-
-<!---
-
 
 #### TP
 
