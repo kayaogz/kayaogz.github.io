@@ -225,7 +225,8 @@ $button-size: 1.5rem;
 
 /* Main content */
 #main {
-  text-align:left;
+  text-align:right;
+  text-indent:0;
 	counter-reset: captions;
 	@include container;
 	@include clearfix;
@@ -237,6 +238,7 @@ $button-size: 1.5rem;
 	.post,
 	.page {
     text-align:justify;
+    text-indent:0;
 		@include container;
 		@include grid(12,10);
 		@include prefix(12,1);
