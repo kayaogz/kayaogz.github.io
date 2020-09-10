@@ -28,7 +28,9 @@ If you have questions, please contact the responsible of the corresponding progr
 
 #### Access to eCampus for online courses: <a href="https://ecampus.paris-saclay.fr/" class="textlink" target="_blank">https://ecampus.paris-saclay.fr/</a>
 
-#### Description of the programme (kick-off meeting with the students): <a href="docs/rentree-pdcs-2020.pdf" class="textlink" target="_blank">rentree-pdcs-2020.pdf</a>
+#### Description of the Université Paris-Saclay Master's programme (kick-off meeting with the students): <a href="docs/rentree-paris-saclay-master-2020.pdf" class="textlink" target="_blank">rentree-pdcs-2020.pdf</a>
+
+#### Description of the PDCS Master's programme (kick-off meeting with the students): <a href="docs/rentree-pdcs-2020.pdf" class="textlink" target="_blank">rentree-pdcs-2020.pdf</a>
 
 ### Acces to courses
 
