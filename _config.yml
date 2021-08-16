@@ -27,7 +27,8 @@ kramdown:
 # Site owner
 owner:
   name: Ghazi Shazan Ahmad
-  avatar: bio-photo.jpg
+  avatar: IMG_20191027_205808_Bokeh.jpg
+  
   bio: "I am an undergrad student at International Institue of Information Technology, Bangalore. I am interested in Machine Learning, Neural Networks and its application in Cognitive Science."
   email: ghazishazan.ahmad@iiitb.ac.in
   disqus-shortname:
