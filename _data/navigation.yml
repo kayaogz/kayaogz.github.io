@@ -6,17 +6,17 @@
 - title: Research
   url: /research
 
-- title: Teaching
-  url: /teaching
+# - title: Teaching
+#   url: /teaching
 
-- title: Publications
-  url: /publications
+# - title: Publications
+#   url: /publications
 
-- title: Master PDCS
+# - title: Master PDCS
   url: /master-pdcs
 
-- title: Blog
-  url: /posts
+- title: Projects
+  url: /projects
 
 
 #- title: Theme Setup
