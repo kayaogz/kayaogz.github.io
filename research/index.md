@@ -19,6 +19,17 @@ image:
 I worked with <a href="https://preetimudliar.work//"> Prof. Preeti Mudliar</a> and two other students to learn about students’ experiences with privacy and surveillance in online learning environments. We seeked to know more about these classroom experiences through a privacy lens to situate how students respond to
 and talk about privacy-related concerns in online learning environments. 
 
+
+
+
+
+
+
+
+
+
+
+
 <!-- Tensor factorizations are widely used in the literature to model, approximate, and compress high dimensional data for which low-rank assumptions hold.
 Many high dimensional real-world data can naturally be expressed as sparse tensors; thereby can be analyzed using tensor factorization.
 
