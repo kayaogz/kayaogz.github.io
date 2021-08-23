@@ -16,6 +16,7 @@ image:
 
 
 
+
 I worked with <a href="https://preetimudliar.work//"> Prof. Preeti Mudliar</a> and two other students to learn about students’ experiences with privacy and surveillance in online learning environments. The Covid-19 pandemic disrupted human social interactions. In education, it forced an abrupt shift in teaching and learning to online learning environments. While news reports continue to report on various concerns around online learning ranging from inadequate internet infrastructure, invasive surveillance during exam proctoring, decline in quality of learning, ‘zoom bombing’ of online classrooms etc, we still do not know enough about students’ experiences of this transition and how their learning goals and interactions with peers and instructors changed. We seeked to know more about these classroom experiences through a privacy lens to situate how students respond to and talk about privacy-related concerns in online learning environments. 
 
 
@@ -39,6 +40,8 @@ We implemented these algorithms in our templated C++ library **HyperTensor**, wh
 ###  Problems in Multi-Task and Multi-Move Rapid Programs
 
 ![Smithsonian Image]({{ site.url }}/images/2.jpg){: .image-pull-right .image-inside}
+
+
 
 
 
