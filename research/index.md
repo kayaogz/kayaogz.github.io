@@ -12,7 +12,7 @@ image:
 
 ### Student’s experiences with privacy in online learning
 
-<!-- ![Smithsonian Image]({{ site.url }}/images/cp.png){: .image-pull-right .image-inside} -->
+![Smithsonian Image]({{ site.url }}/images/1.jpg){: .image-pull-right .image-inside}
 
 
 
@@ -28,7 +28,7 @@ We implemented these algorithms in our templated C++ library **HyperTensor**, wh
 
 ###  Problems in Multi-Task and Multi-Move Rapid Programs
 
-<!-- ![Smithsonian Image]({{ site.url }}/images/hp.png){: .image-pull-right .image-inside} -->
+![Smithsonian Image]({{ site.url }}/images/2.jpg){: .image-pull-right .image-inside}
 
 
 
