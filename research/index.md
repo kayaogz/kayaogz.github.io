@@ -12,7 +12,9 @@ image:
 
 ### Student’s experiences with privacy in online learning
 
-![Smithsonian Image]({{ site.url }}/images/cp.png){: .image-pull-right .image-inside}
+<!-- ![Smithsonian Image]({{ site.url }}/images/cp.png){: .image-pull-right .image-inside} -->
+
+
 
 I worked with <a href="https://preetimudliar.work//"> Prof. Preeti Mudliar!</a> and two other students to learn about students’ experiences with privacy and surveillance in online learning environments. We seeked to know more about these classroom experiences through a privacy lens to situate how students respond to
 and talk about privacy-related concerns in online learning environments. 
@@ -26,7 +28,9 @@ We implemented these algorithms in our templated C++ library **HyperTensor**, wh
 
 ###  Problems in Multi-Task and Multi-Move Rapid Programs
 
-![Smithsonian Image]({{ site.url }}/images/hp.png){: .image-pull-right .image-inside}
+<!-- ![Smithsonian Image]({{ site.url }}/images/hp.png){: .image-pull-right .image-inside} -->
+
+
 
 I along with another student worked under the supervision of Prof. Meenakshi d' Souza and Ameena K Ashraf on the Rapid programming language, a proprietary language of ABB to program their industrial robots. We parsed Rapid programs and implemented some rules that check for data-races in multitask and multi-move
 programs.
