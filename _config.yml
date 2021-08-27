@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            oguzkaya.com
+title:            gsahmad.com
 locale:           en_US
 url:
 
@@ -26,24 +26,25 @@ kramdown:
 
 # Site owner
 owner:
-  name: Oguz Kaya
-  avatar: bio-photo.jpg
-  bio: "I am an assistant professor (maître de conférences) in the ParSys team of Laboratoire de Recherche en Informatique (LRI) at Université Paris-Sud/Paris-Saclay. My research addresses combinatorial and computational problems arising in (multi)linear algebra, machine learning, and scientific computing."
-  email: oguz.kaya@lri.fr
+  name: Ghazi Shazan Ahmad
+  avatar: IMG_20191027_205808_Bokeh.jpg
+  
+  bio: "I am an undergrad student at International Institue of Information Technology, Bangalore. I am interested in Machine Learning, Neural Networks and its application in Cognitive Science."
+  email: ghazishazan.ahmad@iiitb.ac.in
   disqus-shortname:
-  twitter: #username
-  facebook: kayaogz
-  google: 
-    plus: 
-    scholar: https://scholar.google.com.tr/citations?user=iqa9qNYAAAAJ
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
+  twitter: ShazanGhazi
+  facebook: #
+#   google: 
+#     plus: 
+#     scholar: https://scholar.google.com.tr/citations?user=iqa9qNYAAAAJ
+#     analytics:
+#     verify:
+#     ad-client:
+#     ad-slot:
   bing-verify:
-  github: kayaogz
+  github: khufia
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: kayaogz
+  linkedin: ghazi-shazan-ahmad-89138517a
   xing: #username
   instagram: #username
   lastfm: #username
